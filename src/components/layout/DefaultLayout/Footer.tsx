@@ -119,9 +119,9 @@ const FooterBase = () => {
         />
       </Flex>
       <Text align={['center', null, 'right']} w="full">
-        &copy; {new Date().getFullYear()}. Made with love by{' '}
+        &copy; {new Date().getFullYear()}.  by{' '}
         <Link href={SITE_CONFIG.repoOwnerLink} isExternal variant="footer">
-          elitenoire
+          Tengku Umarsyah, Shahruroji, Rizki Ramdhani
         </Link>
       </Text>
     </Flex>
